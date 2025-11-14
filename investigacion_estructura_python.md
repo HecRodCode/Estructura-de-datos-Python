@@ -37,7 +37,8 @@
 
 2.1 ¿Por qué son inmutables?<br>
    Las tuplas son inmutables porque una vez creadas los elementos que contiene no pueden ser alterados, 
-   añadidios o eliminados, esto nos proporciona seguridad t permite utilizarlas como claves (keys) en diccionarios 
+   añadidios o eliminados, esto nos proporciona seguridad t permite utilizarlas como claves (keys) en 
+   diccionarios 
 
 2.2 Situaciones donde son utiles<br>
    - Cuando necesitas datos que no varien y sean fijos.
@@ -93,11 +94,39 @@
     Eliminar:
     del contactos["Fernando"]
     print(f"despues de eliminar a Fernando: {contactos}\n")
-    
-   
 
-   
-      
-    
-    
-    
+4. Match-case
+   Es una estructura de control de flujo que permite comparar un valor (sujeto) con una serie de patrones
+   definidos en los diferentes "case". Cuando el valor conincide con un patron se ejecuta el bloque de codigo
+   asociado a ese "case".
+
+4.1 ¿Para qué se usa?
+   El match/case se utiliza principalmente para mejorar la legibilidad y simplificar la lógica del control de
+   flujo.
+
+4.2 Difenrencias frente a if/elif<br>
+   - El match/case tiene un propósito más orientado a la coincidencia de patrones estructurales, mientras que
+     if/elif a evaluar a expresioes lógicas y booleanas.
+   - El if/elif ejecuta un bloque si la condición es True, y el match/case ejecuta un bloque si el valor
+     coincide con el patrón.
+   - Mientras que el if/elif es ideal para lógica condicional simple o compleja, el match/case simplifica la
+     lógica con multiples opciones fijas o estructuras de datos.
+
+4.3 Situaciones donde usarlo puede ser más claro<br>
+   - Cuando tienes un conjunto finito de valores posibles para una variable, match es mas limpio que usar
+     multiples elif.
+   - match/case es más claro que if/elif cuando se extraen datos de estructuras porque permite
+     definir la forma exacta de los datos que se esperan y asigna sus partes a variables automáticamente,
+     simplificando la lógica de desempaquetado manual.
+
+    opcion = int(input("Ingresa un número del 1 al 3: "))
+    match opcion:
+       case 1:
+          print("Elegiste la opción UNO. Iniciando el modo fácil.")
+       case 2:
+          print("Elegiste la opción DOS. Entrando al menú intermedio.")
+       case 3:
+          print("Elegiste la opción TRES. Activando el modo difícil.")
+       case _:
+          print("Número fuera de rango. Por favor, ingresa 1, 2 o 3.")
+          
