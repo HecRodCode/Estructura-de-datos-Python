@@ -131,4 +131,3 @@
           print("Elegiste la opción TRES. Activando el modo difícil.")
        case _:
           print("Número fuera de rango. Por favor, ingresa 1, 2 o 3.")
-          
