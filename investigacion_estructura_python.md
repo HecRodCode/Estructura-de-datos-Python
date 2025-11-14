@@ -10,7 +10,7 @@
    directamente elementos en la lista existente. 
 
 1.2 Situaciones donde son utiles<br>
-    - Cuando necesitamos almacenar datos que con el tiempo debemos de modificar.
+    - Cuando necesitamos almacenar datos que con el tiempo debemos de modificar.<br>
     - Cuando necesitamos almacenar datos de diferente tipos como cadenas de textos, numericos, alafanumericos
     o booleanos.
 
