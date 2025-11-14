@@ -1,4 +1,4 @@
-1. Listas - list
+1. Listas - list<br>
    Las listas en python son colecciones de datos que se crean atraves de corchetes y se separan con comas,
    nos sirven para almacenar multiples datos de distintos tipos como int, strings y booleans.
    Los elementos de la lista se almacenan en una variable a la cual podemos acceder mediante un indice que
@@ -30,6 +30,8 @@
     Eliminar:
     dias = [Lunes, Martes, Miercoles, Jueves, Viernes]
     dias.remove(Lunes)
+
+2. Tuplas 
 
     
     
