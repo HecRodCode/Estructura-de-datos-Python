@@ -46,14 +46,54 @@
 
 2.3 Ejemplos
 
-    Acceso
+    Acceso:
     frutas = ("Manzana". "Pera", "Mango", "Coco")
     print(frutas[0])
 
-    Recorrer 
+    Recorrer:
     frutas = ("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
     for fruta in frutas:
       print(fruta)
+
+3. Diccionarios<br>
+   Los diccionarios son colecciones mutables y desordenadas que almacenan datos en pares de clave - valor.
+   Cada clave, que debe ser inmutable (como cadenas de texto o numeros), se utilizan para acceder a un valor
+   asociado, de manera similar a como uno usa una palabra para encontrar su significado en un diccionario.
+
+3.1 Diferencia de las claves frente a las tuplas y listas<br>
+   - Las listas y tuplas usan índices numéricos posicionales para acceder a la información, mientras que
+     los diccionarios usan claves descriptivas.
+   - Las listas y diccionarios son mutables, por lo que permiten cambios en su contenido y tamaño despues de
+     ser creados. En cambio las tuplas son inmutables; su contenido y tamaño son fijos desde el momento de su
+     creación.
+
+3.2 Ejemplos
+
+    Creacion:
+    contantos = {
+       "Juan": 3015542517,
+       "Camila": 3144259845,
+       "Fernando": 3124857152,
+    }
+
+    print(f"Diccionario inicial: {contantos}\n")
+   
+    Consultar:
+    telefono_juan = contactos["Juan"]
+    print(f"El telefono de Juan es: {telefono_juan}")
+
+    Agregar:
+    contactos["Diana"] = 3561524486
+    print(f"Despues de agregar a Diana: {contactos}\n")
+
+    Modificar:
+    contactos["Juan"] = 2354859610
+    print(f"Despues de modificar el numero de Juan: {contactos}")
+
+    Eliminar:
+    del contactos["Fernando"]
+    print(f"despues de eliminar a Fernando: {contactos}\n")
+    
    
 
    
