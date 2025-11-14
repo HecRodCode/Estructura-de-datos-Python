@@ -17,9 +17,21 @@
 1.3 Ejemplos 
 
     Creacion:
-    nombres = ["Hector Rodriguez", 12, 23, "Santiago Arias", True]
+    nombres = ["Hector Rodriguez", 12, 23, "Santiago Arias", True] 
+    
     Leer:
     Frutas = [Manzana, Pera, Piña, Banano]
     print(frutas)
+
+    Modificar:
+    vocales = [a, e, i, o, u]
+    vocales[3] = h
+
+    Eliminar:
+    dias = [Lunes, Martes, Miercoles, Jueves, Viernes]
+    dias.remove(Lunes)
+
+    
+    
     
     
