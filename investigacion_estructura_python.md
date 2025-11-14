@@ -1,4 +1,4 @@
-## 1. Listas - list<br>
+# 1. Listas - list<br>
    Las listas en python son colecciones de datos que se crean atraves de corchetes y se separan con comas,
    nos sirven para almacenar multiples datos de distintos tipos como int, strings y booleans.
    Los elementos de la lista se almacenan en una variable a la cual podemos acceder mediante un indice que
@@ -31,7 +31,7 @@
     dias = [Lunes, Martes, Miercoles, Jueves, Viernes]
     dias.remove(Lunes)
 
-## 2. Tuplas - tuples <br>
+# 2. Tuplas - tuples <br>
    Las tuplas son colecciones de datos ordenadas que son inmutables (no se pueden modificar), dentro de ellas
    se pueden almacenar datos de diferentes tipos, al igual que las listas.
 
@@ -56,7 +56,7 @@
     for fruta in frutas:
       print(fruta)
 
-## 3. Diccionarios<br>
+# 3. Diccionarios<br>
    Los diccionarios son colecciones mutables y desordenadas que almacenan datos en pares de clave - valor.
    Cada clave, que debe ser inmutable (como cadenas de texto o numeros), se utilizan para acceder a un valor
    asociado, de manera similar a como uno usa una palabra para encontrar su significado en un diccionario.
@@ -95,7 +95,7 @@
     del contactos["Fernando"]
     print(f"despues de eliminar a Fernando: {contactos}\n")
 
-## 4. Match-case
+# 4. Match-case
    Es una estructura de control de flujo que permite comparar un valor (sujeto) con una serie de patrones
    definidos en los diferentes "case". Cuando el valor conincide con un patron se ejecuta el bloque de codigo
    asociado a ese "case".
