@@ -31,9 +31,33 @@
     dias = [Lunes, Martes, Miercoles, Jueves, Viernes]
     dias.remove(Lunes)
 
-2. Tuplas 
+2. Tuplas<br>
+   Las tuplas son colecciones de datos ordenadas que son inmutables (no se pueden modificar), dentro de ellas
+   se pueden almacenar datos de diferentes tipos, al igual que las listas.
 
-    
+2.1 ¿Por qué son inmutables?<br>
+   Las tuplas son inmutables porque una vez creadas los elementos que contiene no pueden ser alterados, 
+   añadidios o eliminados, esto nos proporciona seguridad t permite utilizarlas como claves (keys) en diccionarios 
+
+2.2 Situaciones donde son utiles<br>
+   - Cuando necesitas datos que no varien y sean fijos.
+   - Cuando necesitamos usar datos como claves en diccionarios.
+   - Cuando necesitas que tu programa sea mas rapido, las tuplas son mas eficientes que las listas.
+
+2.3 Ejemplos
+
+   Acceso
+   frutas = ("Manzana". "Pera", "Mango", "Coco")
+   print(frutas[0])
+
+   Recorrer 
+   frutas = ("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
+   for fruta in frutas:
+      print(fruta)
+   
+
+   
+      
     
     
     
