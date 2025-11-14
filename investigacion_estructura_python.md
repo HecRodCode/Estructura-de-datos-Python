@@ -46,13 +46,13 @@
 
 2.3 Ejemplos
 
-   Acceso
-   frutas = ("Manzana". "Pera", "Mango", "Coco")
-   print(frutas[0])
+    Acceso
+    frutas = ("Manzana". "Pera", "Mango", "Coco")
+    print(frutas[0])
 
-   Recorrer 
-   frutas = ("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
-   for fruta in frutas:
+    Recorrer 
+    frutas = ("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
+    for fruta in frutas:
       print(fruta)
    
 
