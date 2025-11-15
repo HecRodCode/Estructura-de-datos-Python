@@ -1,4 +1,4 @@
-# Estructura de datos Python
+# Estructuras de datos Python
 
 ## 1. Listas - list<br>
    Las listas en python son colecciones de datos que se crean atraves de corchetes y se separan con comas,
